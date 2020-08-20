@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>PianoPlugin</title>
+</head>
+<body>
+  <div class="piano">
+    <div data-note="C3" class="key white"></div>
+    <div data-note="Db3" class="key black"></div>
+    <div data-note="D3" class="key white"></div>
+    <div data-note="Eb3" class="key black"></div>
+    <div data-note="E3" class="key white"></div>
+    <div data-note="F3" class="key white"></div>
+    <div data-note="Gb3" class="key black"></div>
+    <div data-note="G3" class="key white"></div>
+    <div data-note="Ab3" class="key black"></div>
+    <div data-note="A3" class="key white"></div>
+    <div data-note="Bb3" class="key black"></div>
+    <div data-note="B3" class="key white"></div>
+
+    <div data-note="C4" class="key white"></div>
+    <div data-note="Db4" class="key black"></div>
+    <div data-note="D4" class="key white"></div>
+    <div data-note="Eb4" class="key black"></div>
+    <div data-note="E4" class="key white"></div>
+    <div data-note="F4" class="key white"></div>
+    <div data-note="Gb4" class="key black"></div>
+    <div data-note="G4" class="key white"></div>
+    <div data-note="Ab4" class="key black"></div>
+    <div data-note="A4" class="key white"></div>
+    <div data-note="Bb4" class="key black"></div>
+    <div data-note="B4" class="key white"></div>
+
+    <div data-note="C5" class="key white"></div>
+    <div data-note="Db5" class="key black"></div>
+    <div data-note="D5" class="key white"></div>
+    <div data-note="Eb5" class="key black"></div>
+    <div data-note="E5" class="key white"></div>
+    <div data-note="F5" class="key white"></div>
+    <div data-note="Gb5" class="key black"></div>
+    <div data-note="G5" class="key white"></div>
+    <div data-note="Ab5" class="key black"></div>
+    <div data-note="A5" class="key white"></div>
+    <div data-note="Bb5" class="key black"></div>
+    <div data-note="B5" class="key white"></div>
+
+    <div data-note="C6" class="key white"></div>
+    <div data-note="Db6" class="key black"></div>
+    <div data-note="D6" class="key white"></div>
+    <div data-note="Eb6" class="key black"></div>
+    <div data-note="E6" class="key white"></div>
+    <div data-note="F6" class="key white"></div>
+    <div data-note="Gb6" class="key black"></div>
+    <div data-note="G6" class="key white"></div>
+    <div data-note="Ab6" class="key black"></div>
+    <div data-note="A6" class="key white"></div>
+    <div data-note="Bb6" class="key black"></div>
+    <div data-note="B6" class="key white"></div>
+
+    <div data-note="C7" class="key white"></div>
+  </div>
+
+  <audio id="C3" src="soundFont/C3.mp3"></audio>
+  <audio id="Db3" src="soundFont/Db3.mp3"></audio>
+  <audio id="D3" src="soundFont/D3.mp3"></audio>
+  <audio id="Eb3" src="soundFont/Eb3.mp3"></audio>
+  <audio id="E3" src="soundFont/E3.mp3"></audio>
+  <audio id="F3" src="soundFont/F3.mp3"></audio>
+  <audio id="Gb3" src="soundFont/Gb3.mp3"></audio>
+  <audio id="G3" src="soundFont/G3.mp3"></audio>
+  <audio id="Ab3" src="soundFont/Ab3.mp3"></audio>
+  <audio id="A3" src="soundFont/A3.mp3"></audio>
+  <audio id="Bb3" src="soundFont/Bb3.mp3"></audio>
+  <audio id="B3" src="soundFont/B3.mp3"></audio>
+
+  <audio id="C4" src="soundFont/C4.mp3"></audio>
+  <audio id="Db4" src="soundFont/Db4.mp3"></audio>
+  <audio id="D4" src="soundFont/D4.mp3"></audio>
+  <audio id="Eb4" src="soundFont/Eb4.mp3"></audio>
+  <audio id="E4" src="soundFont/E4.mp3"></audio>
+  <audio id="F4" src="soundFont/F4.mp3"></audio>
+  <audio id="Gb4" src="soundFont/Gb4.mp3"></audio>
+  <audio id="G4" src="soundFont/G4.mp3"></audio>
+  <audio id="Ab4" src="soundFont/Ab4.mp3"></audio>
+  <audio id="A4" src="soundFont/A4.mp3"></audio>
+  <audio id="Bb4" src="soundFont/Bb4.mp3"></audio>
+  <audio id="B4" src="soundFont/B4.mp3"></audio>
+
+  <audio id="C5" src="soundFont/C5.mp3"></audio>
+  <audio id="Db5" src="soundFont/Db5.mp3"></audio>
+  <audio id="D5" src="soundFont/D5.mp3"></audio>
+  <audio id="Eb5" src="soundFont/Eb5.mp3"></audio>
+  <audio id="E5" src="soundFont/E5.mp3"></audio>
+  <audio id="F5" src="soundFont/F5.mp3"></audio>
+  <audio id="Gb5" src="soundFont/Gb5.mp3"></audio>
+  <audio id="G5" src="soundFont/G5.mp3"></audio>
+  <audio id="Ab5" src="soundFont/Ab5.mp3"></audio>
+  <audio id="A5" src="soundFont/A5.mp3"></audio>
+  <audio id="Bb5" src="soundFont/Bb5.mp3"></audio>
+  <audio id="B5" src="soundFont/B5.mp3"></audio>
+
+  <audio id="C6" src="soundFont/C6.mp3"></audio>
+  <audio id="Db6" src="soundFont/Db6.mp3"></audio>
+  <audio id="D6" src="soundFont/D6.mp3"></audio>
+  <audio id="Eb6" src="soundFont/Eb6.mp3"></audio>
+  <audio id="E6" src="soundFont/E6.mp3"></audio>
+  <audio id="F6" src="soundFont/F6.mp3"></audio>
+  <audio id="Gb6" src="soundFont/Gb6.mp3"></audio>
+  <audio id="G6" src="soundFont/G6.mp3"></audio>
+  <audio id="Ab6" src="soundFont/Ab6.mp3"></audio>
+  <audio id="A6" src="soundFont/A6.mp3"></audio>
+  <audio id="Bb6" src="soundFont/Bb6.mp3"></audio>
+  <audio id="B6" src="soundFont/B6.mp3"></audio>
+
+  <audio id="C7" src="soundFont/C7.mp3"></audio>
+</body>
+</html>
